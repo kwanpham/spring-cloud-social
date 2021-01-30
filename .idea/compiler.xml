@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="stock-service" />
+        <module name="spring-cloud-social" />
+        <module name="galaxy-service" />
+        <module name="auth-service" />
+        <module name="config-service" />
+        <module name="monitoring-dashbroad" />
+        <module name="hystrix-dashboard" />
+        <module name="common-lib" />
+        <module name="euruka-service" />
+        <module name="image-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-lib" target="1.5" />
+      <module name="registry-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth-service" options="-parameters" />
+      <module name="config-service" options="-parameters" />
+      <module name="euruka-service" options="-parameters" />
+      <module name="galaxy-service" options="-parameters" />
+      <module name="hystrix-dashboard" options="-parameters" />
+      <module name="image-service" options="-parameters" />
+      <module name="monitoring-dashbroad" options="-parameters" />
+      <module name="registry-service" options="-parameters" />
+      <module name="stock-service" options="-parameters" />
+    </option>
+  </component>
+</project>
