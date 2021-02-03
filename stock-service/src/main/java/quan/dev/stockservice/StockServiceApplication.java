@@ -26,4 +26,6 @@ public class StockServiceApplication {
 
 		return mySampleClient;
 	}
+
+
 }
